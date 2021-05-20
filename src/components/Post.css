@@ -10,6 +10,13 @@
   padding: 10px;
 }
 
+.post:hover {
+  background: #ededed;
+
+  /* color: var(--twitter-background);; */
+  transition: color 100ms ease-out;
+}
+
 .post__body > img {
   border-radius: 20px;
   /* width: 400px; */
