@@ -12,8 +12,6 @@ import MoreHorizIcon from "@material-ui/icons/MoreHoriz";
 
 import { Button } from "@material-ui/core";
 
-
-
 import Sidebaroptions from './Sidebaroptions'
 
 
@@ -21,7 +19,7 @@ function Sidebar() {
   return (
 <div className="sidebar">
   {/* twitter icon */}
-  <TwitterIcon/>
+  <TwitterIcon className="sidebar__twitterIcon" />
 
 
   {/* sidebar option component */}
